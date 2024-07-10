@@ -1,0 +1,50 @@
+.navbar {
+  background: transparent;
+}
+
+.myBG {
+  margin-top: -57px;
+  height: 100vh;
+  background: url(../assets/img/bg/bg4.jpg);
+  background-size: cover;
+}
+
+.intro {
+  height: 300px;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+
+.title {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 800;
+  line-height: 1;
+  text-shadow: 2px 2px darkgrey;
+  letter-spacing: 3px;
+}
+
+.trending {
+  height: auto;
+  background: url(../assets/img/bg/bg5.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.movieImage {
+  border: none !important;
+}
+
+.movieImage img {
+  height: 300px !important;
+  margin: 5px;
+  padding: 5px;
+}
+
+.anime {
+  height: auto;
+  background: url(../assets/img/bg/bg3.jpg);
+  background-size: cover;
+  background-position: center;
+}
